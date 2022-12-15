@@ -65,6 +65,5 @@ def main():
         print(email)
         pyperclip.copy(email)
 
-if_name=="main_":
-main()
-
+if __name__=="__main__":
+    main()
